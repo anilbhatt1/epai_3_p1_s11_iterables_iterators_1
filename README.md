@@ -26,7 +26,7 @@
 ## Assignment Solution
 
 - File that holds required functions for part 1: Polygon.py
-- Github Location : https://github.com/anilbhatt1/EPAI_Phase1/blob/master/S14_Iterables_Iterators/Polygon.py
+- Github Location : https://github.com/anilbhatt1/epai_3_p1_s11_iterables_iterators_1/blob/master/Polygon.py
 - Following functions are implemented:
 - **__count_vertices__(self)**
     - This is a property.
@@ -60,7 +60,7 @@
     - Calculates perimeter = n * s
 
 - File that holds required functions for part 2 (sequence): Polygons.py
-- Github Location : https://github.com/anilbhatt1/EPAI_Phase1/blob/master/S14_Iterables_Iterators/Polygons.py
+- Github Location : https://github.com/anilbhatt1/epai_3_p1_s11_iterables_iterators_1/blob/master/Polygons.py
 - Following functions are implemented:
 - **__init__(self)**
     - Will store no: of edges in seqeunce (m), common circumradius(R)
@@ -95,11 +95,11 @@
         - If self._index >= len(self._poly_obj) raises stopiteration. This avoids indefinite execution.
 
 - Draft Jupyter version where assignment was initially tried out can be found below:
-https://github.com/anilbhatt1/EPAI_Phase1/blob/master/S14_Iterables_Iterators/Iterables_1_Assignment_Draft.ipynb
+https://github.com/anilbhatt1/epai_3_p1_s11_iterables_iterators_1/blob/master/Iterables_1_Assignment_Draft.ipynb
 
 ## Testing
 - All the above functions are tested using pytest.
 - Testcase file : **test_Polygons.py** (Please note that that 'test_' need to be prefixed for Pytest to automatically identify that it is a testcase file).
-- Github Location : https://github.com/anilbhatt1/EPAI_Phase1/blob/master/S14_Iterables_Iterators/test_Polygons.py
+- Github Location : https://github.com/anilbhatt1/epai_3_p1_s11_iterables_iterators_1/blob/master/test_Polygons.py
 - Test snapshot results as below:
-![Test_Pass](https://github.com/anilbhatt1/EPAI_Phase1/blob/master/S14_Iterables_Iterators/Assignment1_Test_Passed_Snapshot.png)
+![Test_Pass](https://github.com/anilbhatt1/epai_3_p1_s11_iterables_iterators_1/blob/master/Assignment1_Test_Passed_Snapshot.png)
